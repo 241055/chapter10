@@ -21,4 +21,8 @@ public class SuperHero extends Hero {
         super.test();
         System.out.println("子test");
     }
+    public SuperHero() {
+        super(); //自動で追加されている
+        System.out.println("SuperHeroのコンストラクタが動作");
+    }
 }
